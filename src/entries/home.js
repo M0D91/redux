@@ -23,7 +23,8 @@ const store = createStore(
     enhancer
 );
 
-console.log(store.getState())
+// console.log(store.getState())
+
 // ReactDOM es quien renderiza los elementos en el navegador
 // La sintaxis recibe 2 parametros
 // ReactDOM.render(item a renderizar, donde lo renderizara)

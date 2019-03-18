@@ -8,8 +8,8 @@ class SearchContainer extends Component {
     }
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log('enviado');
-        console.log(this.input.value);
+        // console.log('enviado');
+        // console.log(this.input.value);
 
         this.props.dispatch({
             type: 'SEARCH_VIDEO',
